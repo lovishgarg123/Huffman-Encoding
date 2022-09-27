@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encode Decode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_left">
+            <div class="left_container">
+                <div>
+                    <textarea placeholder="Enter words in new line" spellcheck="false" autocomplete="false"
+                        autocapitalize="false" data-gramm_editor="false"></textarea>
+                </div>
+                <div>
+                    <button onclick="encode()">Encode</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_right">
+            <div class="coded_text_block">
+                <h3>Coded Text</h3>
+                <div class="coded_text">
+                    <p></p>
+                </div>
+            </div>
+            <div class="summary_block">
+                <h3>Summary</h3>
+                <div class="summary">
+                    <table>
+                        <tr>
+                            <th>Character</th>
+                            <th>Frequency</th>
+                            <th>Code</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

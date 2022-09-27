@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100vh;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_left div {
+    text-align: center;
+}
+
+.main_left textarea {
+    width: 400px;
+    height: 200px;
+    font-size: 16px;
+    color: #444;
+    background-color: aliceblue;
+}
+
+.main_left button {
+    margin-top: 10px;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid green;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}
+
+.main_left button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.main_right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_right div {
+    margin: 10px 0;
+}
+
+.coded_text{
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+
+.summary {
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+}
